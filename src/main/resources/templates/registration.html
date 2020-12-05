@@ -14,7 +14,7 @@
     <span th:unless="${userName} != null">
         <h1>Hello</h1>
         <span th:if="${errorMessage} != null" th:text="'Error: ' + ${errorMessage}"></span>
-        <form action="registration">
+        <form action="/registration" method="post">
             <h2>Enter your name</h2>
             <input type="text" name="userName">
             <input type="password" name="userPassword">

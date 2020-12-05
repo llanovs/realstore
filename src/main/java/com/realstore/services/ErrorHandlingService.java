@@ -1,8 +1,5 @@
-package com.store.realstore.services;
+package com.realstore.services;
 
-import org.springframework.stereotype.Service;
-
-@Service
 public class ErrorHandlingService {
 
     private static ErrorHandlingService errorHandlingService;

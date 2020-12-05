@@ -1,4 +1,4 @@
-package com.store.realstore.constants;
+package com.realstore.constants;
 
 public class Constants {
     public static final String CHANGE_USER_PASSWORD = "User password was changed";

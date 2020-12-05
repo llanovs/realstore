@@ -8,14 +8,14 @@
     <span th:if="${userName} == null">
         <h1>Hello</h1>
         <span th:if="${errorMessage} != null" th:text="'Error: ' + ${errorMessage}"></span>
-        <form action="login">
+        <form action="login" method="post">
             <h2>Enter your name</h2>
             <input type="text" name="userName">
             <input type="password" name="userPassword">
             <input type="submit">
         </form>
     </span>
-    <h1 th:unless="${userName}==null" th:text="'Hello, ' + ${userName}">
-    </h1>
+    <h1 th:unless="${userName}==null" th:text="'Hello, ' + ${userName}"></h1>
+    <div><a href="/home">Home</a></div>
 </body>
 </html>
